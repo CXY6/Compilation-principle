@@ -1,0 +1,232 @@
+============== parse done!!!
+============== begin gen node id!!!
+============== begin print ast!!!
+line:0    Node_id:0    PROGRAM                       child: 1 2 3 4 5 6 7 8 9 10 11 12 13 
+line:1    Node_id:1    TYPE:int                      child: NULL
+line:1    Node_id:2    KEYWORD:main                  child: NULL
+line:2    Node_id:3    STMT:DECL                     child: 14 15 16 
+line:2    Node_id:14   TYPE:int                      child: NULL
+line:2    Node_id:15   VAR:a                         child: NULL
+line:2    Node_id:16   VAR:s                         child: NULL
+line:3    Node_id:4    STMT:ASSIGN                   child: 17 
+line:3    Node_id:17   EXPR:ASSIGN                   child: 48 49 50 
+line:3    Node_id:48   VAR:a                         child: NULL
+line:3    Node_id:49   OP:=                          child: NULL
+line:3    Node_id:50   CONST:10                      child: NULL
+line:4    Node_id:5    STMT:ASSIGN                   child: 18 
+line:4    Node_id:18   EXPR:ASSIGN                   child: 51 52 53 
+line:4    Node_id:51   VAR:s                         child: NULL
+line:4    Node_id:52   OP:=                          child: NULL
+line:4    Node_id:53   CONST:0                       child: NULL
+line:5    Node_id:6    STMT:DECL                     child: 19 20 
+line:5    Node_id:19   TYPE:char                     child: NULL
+line:5    Node_id:20   VAR:ch                        child: NULL
+line:6    Node_id:7    STMT:SCANF                    child: 21 22 23 24 
+line:6    Node_id:21   KEYWORD:scanf                 child: NULL
+line:6    Node_id:22   CONST:"\%d"                   child: NULL
+line:6    Node_id:23   OP:&                          child: NULL
+line:6    Node_id:24   VAR:ch                        child: NULL
+line:7    Node_id:8    STMT:WHILE                    child: 25 26 27 28 29 30 31 32 33 
+line:7    Node_id:25   KEYWORD:while                 child: NULL
+line:7    Node_id:26   EXPR:OR                       child: 54 55 56 
+line:7    Node_id:54   EXPR:AND                      child: 97 98 99 
+line:7    Node_id:97   EXPR:RELATION                 child: 139 140 141 
+line:7    Node_id:139  VAR:a                         child: NULL
+line:7    Node_id:140  OP:>                          child: NULL
+line:7    Node_id:141  CONST:0                       child: NULL
+line:7    Node_id:98   OP:&&                         child: NULL
+line:7    Node_id:99   EXPR:RELATION                 child: 142 143 144 
+line:7    Node_id:142  VAR:a                         child: NULL
+line:7    Node_id:143  OP:<=                         child: NULL
+line:7    Node_id:144  CONST:10                      child: NULL
+line:7    Node_id:55   OP:||                         child: NULL
+line:7    Node_id:56   EXPR:AND                      child: 100 101 102 
+line:7    Node_id:100  EXPR:EQUAL                    child: 145 146 147 
+line:7    Node_id:145  EXPR:MUL                      child: 178 179 180 
+line:7    Node_id:178  VAR:a                         child: NULL
+line:7    Node_id:179  OP:%                          child: NULL
+line:7    Node_id:180  CONST:100                     child: NULL
+line:7    Node_id:146  OP:==                         child: NULL
+line:7    Node_id:147  CONST:10                      child: NULL
+line:7    Node_id:101  OP:&&                         child: NULL
+line:7    Node_id:102  EXPR:EQUAL                    child: 148 149 150 
+line:7    Node_id:148  EXPR:UNARY                    child: 181 182 
+line:7    Node_id:181  OP:!                          child: NULL
+line:7    Node_id:182  VAR:a                         child: NULL
+line:7    Node_id:149  OP:==                         child: NULL
+line:7    Node_id:150  CONST:10                      child: NULL
+line:8    Node_id:27   STMT:ASSIGN                   child: 57 
+line:8    Node_id:57   EXPR:ASSIGN                   child: 103 104 105 
+line:8    Node_id:103  VAR:a                         child: NULL
+line:8    Node_id:104  OP:-=                         child: NULL
+line:8    Node_id:105  CONST:1                       child: NULL
+line:9    Node_id:28   STMT:DECL                     child: 58 59 
+line:9    Node_id:58   TYPE:int                      child: NULL
+line:9    Node_id:59   VAR:a                         child: NULL
+line:10   Node_id:29   STMT:ASSIGN                   child: 60 
+line:10   Node_id:60   EXPR:ASSIGN                   child: 106 107 108 
+line:10   Node_id:106  VAR:a                         child: NULL
+line:10   Node_id:107  OP:=                          child: NULL
+line:10   Node_id:108  CONST:10                      child: NULL
+line:11   Node_id:30   STMT:ASSIGN                   child: 61 
+line:11   Node_id:61   EXPR:ASSIGN                   child: 109 110 111 
+line:11   Node_id:109  VAR:s                         child: NULL
+line:11   Node_id:110  OP:+=                         child: NULL
+line:11   Node_id:111  VAR:a                         child: NULL
+line:12   Node_id:31   STMT:DECL                     child: 62 63 
+line:12   Node_id:62   TYPE:int                      child: NULL
+line:12   Node_id:63   VAR:x                         child: NULL
+line:13   Node_id:32   STMT:IF                       child: 64 65 66 67 68 69 
+line:13   Node_id:64   KEYWORD:if                    child: NULL
+line:13   Node_id:65   EXPR:RELATION                 child: 112 113 114 
+line:13   Node_id:112  EXPR:UNARY                    child: 151 152 
+line:13   Node_id:151  OP:-                          child: NULL
+line:13   Node_id:152  VAR:s                         child: NULL
+line:13   Node_id:113  OP:<                          child: NULL
+line:13   Node_id:114  EXPR:UNARY                    child: 153 154 
+line:13   Node_id:153  OP:-                          child: NULL
+line:13   Node_id:154  CONST:10                      child: NULL
+line:14   Node_id:66   STMT:PRINTF                   child: 115 116 117 
+line:14   Node_id:115  KEYWORD:printf                child: NULL
+line:14   Node_id:116  CONST:"result is: %d\n"       child: NULL
+line:14   Node_id:117  VAR:s                         child: NULL
+line:15   Node_id:67   STMT:DECL                     child: 118 119 
+line:15   Node_id:118  TYPE:int                      child: NULL
+line:15   Node_id:119  VAR:b                         child: NULL
+line:16   Node_id:68   STMT:ASSIGN                   child: 120 
+line:16   Node_id:120  EXPR:ASSIGN                   child: 155 156 157 
+line:16   Node_id:155  VAR:b                         child: NULL
+line:16   Node_id:156  OP:=                          child: NULL
+line:16   Node_id:157  CONST:10                      child: NULL
+line:17   Node_id:69   STMT:FOR                      child: 121 122 123 124 125 
+line:17   Node_id:121  KEYWORD:for                   child: NULL
+line:17   Node_id:122  STMT:DECL                     child: 158 159 160 161 
+line:17   Node_id:158  TYPE:int                      child: NULL
+line:17   Node_id:159  VAR:i                         child: NULL
+line:17   Node_id:160  OP:=                          child: NULL
+line:17   Node_id:161  CONST:0                       child: NULL
+line:17   Node_id:123  EXPR:RELATION                 child: 162 163 164 
+line:17   Node_id:162  VAR:i                         child: NULL
+line:17   Node_id:163  OP:<                          child: NULL
+line:17   Node_id:164  VAR:b                         child: NULL
+line:17   Node_id:124  EXPR:POSTFIX                  child: 165 166 
+line:17   Node_id:165  VAR:i                         child: NULL
+line:17   Node_id:166  OP:++                         child: NULL
+line:18   Node_id:125  STMT:PRINTF                   child: 167 168 169 
+line:18   Node_id:167  KEYWORD:printf                child: NULL
+line:18   Node_id:168  CONST:"Have fun: %d\n"        child: NULL
+line:18   Node_id:169  VAR:i                         child: NULL
+line:21   Node_id:33   STMT:ASSIGN                   child: 70 
+line:21   Node_id:70   EXPR:ASSIGN                   child: 126 127 128 
+line:21   Node_id:126  VAR:b                         child: NULL
+line:21   Node_id:127  OP:=                          child: NULL
+line:21   Node_id:128  CONST:5                       child: NULL
+line:23   Node_id:9    STMT:ASSIGN                   child: 34 
+line:23   Node_id:34   EXPR:ASSIGN                   child: 71 72 73 
+line:23   Node_id:71   VAR:x                         child: NULL
+line:23   Node_id:72   OP:=                          child: NULL
+line:23   Node_id:73   CONST:5                       child: NULL
+line:24   Node_id:10   STMT:ASSIGN                   child: 35 
+line:24   Node_id:35   EXPR:ASSIGN                   child: 74 75 76 
+line:24   Node_id:74   VAR:a                         child: NULL
+line:24   Node_id:75   OP:=                          child: NULL
+line:24   Node_id:76   CONST:9                       child: NULL
+line:25   Node_id:11   STMT:DECL                     child: 36 37 
+line:25   Node_id:36   TYPE:int                      child: NULL
+line:25   Node_id:37   VAR:i                         child: NULL
+line:26   Node_id:12   STMT:FOR                      child: 38 39 40 41 42 43 44 45 46 
+line:26   Node_id:38   KEYWORD:for                   child: NULL
+line:26   Node_id:39   EXPR:ASSIGN                   child: 77 78 79 
+line:26   Node_id:77   VAR:i                         child: NULL
+line:26   Node_id:78   OP:=                          child: NULL
+line:26   Node_id:79   CONST:1                       child: NULL
+line:26   Node_id:40   EXPR:RELATION                 child: 80 81 82 
+line:26   Node_id:80   VAR:i                         child: NULL
+line:26   Node_id:81   OP:<=                         child: NULL
+line:26   Node_id:82   CONST:2                       child: NULL
+line:26   Node_id:41   EXPR:POSTFIX                  child: 83 84 
+line:26   Node_id:83   VAR:i                         child: NULL
+line:26   Node_id:84   OP:++                         child: NULL
+line:27   Node_id:42   STMT:ASSIGN                   child: 85 
+line:27   Node_id:85   EXPR:POSTFIX                  child: 129 130 
+line:27   Node_id:129  VAR:a                         child: NULL
+line:27   Node_id:130  OP:++                         child: NULL
+line:28   Node_id:43   STMT:DECL                     child: 86 87 
+line:28   Node_id:86   TYPE:int                      child: NULL
+line:28   Node_id:87   VAR:i                         child: NULL
+line:29   Node_id:44   STMT:DECL                     child: 88 89 
+line:29   Node_id:88   TYPE:int                      child: NULL
+line:29   Node_id:89   VAR:a                         child: NULL
+line:30   Node_id:45   STMT:WHILE                    child: 90 91 92 93 
+line:30   Node_id:90   KEYWORD:while                 child: NULL
+line:30   Node_id:91   EXPR:RELATION                 child: 131 132 133 
+line:30   Node_id:131  VAR:i                         child: NULL
+line:30   Node_id:132  OP:<                          child: NULL
+line:30   Node_id:133  CONST:10                      child: NULL
+line:31   Node_id:92   STMT:ASSIGN                   child: 134 
+line:31   Node_id:134  EXPR:POSTFIX                  child: 170 171 
+line:31   Node_id:170  VAR:a                         child: NULL
+line:31   Node_id:171  OP:++                         child: NULL
+line:32   Node_id:93   STMT:ASSIGN                   child: 135 
+line:32   Node_id:135  EXPR:ASSIGN                   child: 172 173 174 
+line:32   Node_id:172  VAR:i                         child: NULL
+line:32   Node_id:173  OP:=                          child: NULL
+line:32   Node_id:174  EXPR:ADD                      child: 183 184 185 
+line:32   Node_id:183  VAR:i                         child: NULL
+line:32   Node_id:184  OP:+                          child: NULL
+line:32   Node_id:185  CONST:1                       child: NULL
+line:34   Node_id:46   STMT:ASSIGN                   child: 94 
+line:34   Node_id:94   EXPR:ASSIGN                   child: 136 137 138 
+line:34   Node_id:136  VAR:a                         child: NULL
+line:34   Node_id:137  OP:=                          child: NULL
+line:34   Node_id:138  EXPR:ADD                      child: 175 176 177 
+line:34   Node_id:175  VAR:a                         child: NULL
+line:34   Node_id:176  OP:+                          child: NULL
+line:34   Node_id:177  CONST:1                       child: NULL
+line:36   Node_id:13   STMT:ASSIGN                   child: 47 
+line:36   Node_id:47   EXPR:POSTFIX                  child: 95 96 
+line:36   Node_id:95   VAR:a                         child: NULL
+line:36   Node_id:96   OP:++                         child: NULL
+==============begin print symbol table information!!!
+1     var_name:a    depth:1    num_of_depth:0    DECL 
+2     var_name:s    depth:1    num_of_depth:0    DECL 
+3     var_name:a    depth:1    num_of_depth:0    REFE  last_decl:1    
+4     var_name:s    depth:1    num_of_depth:0    REFE  last_decl:2    
+5     var_name:ch   depth:1    num_of_depth:0    DECL 
+6     var_name:ch   depth:1    num_of_depth:0    REFE  last_decl:5    
+7     var_name:a    depth:1    num_of_depth:0    REFE  last_decl:1    
+8     var_name:a    depth:1    num_of_depth:0    REFE  last_decl:1    
+9     var_name:a    depth:1    num_of_depth:0    REFE  last_decl:1    
+10    var_name:a    depth:1    num_of_depth:0    REFE  last_decl:1    
+11    var_name:a    depth:2    num_of_depth:0    REFE  last_decl:1    
+12    var_name:a    depth:2    num_of_depth:0    DECL 
+13    var_name:a    depth:2    num_of_depth:0    REFE  last_decl:12   
+14    var_name:s    depth:2    num_of_depth:0    REFE  last_decl:2    
+15    var_name:a    depth:2    num_of_depth:0    REFE  last_decl:12   
+16    var_name:x    depth:2    num_of_depth:0    DECL 
+17    var_name:s    depth:2    num_of_depth:0    REFE  last_decl:2    
+18    var_name:s    depth:3    num_of_depth:0    REFE  last_decl:2    
+19    var_name:b    depth:3    num_of_depth:0    DECL 
+20    var_name:b    depth:3    num_of_depth:0    REFE  last_decl:19   
+21    var_name:i    depth:3    num_of_depth:0    DECL 
+22    var_name:i    depth:3    num_of_depth:0    REFE  last_decl:21   
+23    var_name:b    depth:3    num_of_depth:0    REFE  last_decl:19   
+24    var_name:i    depth:3    num_of_depth:0    REFE  last_decl:21   
+25    var_name:i    depth:4    num_of_depth:0    REFE  last_decl:21   
+26    var_name:b    depth:2    num_of_depth:0    REFE  last_decl:9999 
+27    var_name:x    depth:1    num_of_depth:0    REFE  last_decl:9999 
+28    var_name:a    depth:1    num_of_depth:0    REFE  last_decl:1    
+29    var_name:i    depth:1    num_of_depth:0    DECL 
+30    var_name:i    depth:1    num_of_depth:0    REFE  last_decl:29   
+31    var_name:i    depth:1    num_of_depth:0    REFE  last_decl:29   
+32    var_name:i    depth:1    num_of_depth:0    REFE  last_decl:29   
+33    var_name:a    depth:2    num_of_depth:1    REFE  last_decl:1    
+34    var_name:i    depth:2    num_of_depth:1    DECL 
+35    var_name:a    depth:2    num_of_depth:1    DECL 
+36    var_name:i    depth:2    num_of_depth:1    REFE  last_decl:34   
+37    var_name:a    depth:3    num_of_depth:1    REFE  last_decl:35   
+38    var_name:i    depth:3    num_of_depth:1    REFE  last_decl:34   
+39    var_name:i    depth:3    num_of_depth:1    REFE  last_decl:34   
+40    var_name:a    depth:2    num_of_depth:1    REFE  last_decl:35   
+41    var_name:a    depth:2    num_of_depth:1    REFE  last_decl:35   
+42    var_name:a    depth:1    num_of_depth:0    REFE  last_decl:1    
